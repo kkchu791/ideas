@@ -3,10 +3,17 @@ import ProjectItems from "./ProjectItems";
 
 const App = () => {
   return (
-      <div className="container">
+      <div style={styles.body}>
         <ProjectItems />
       </div>
   );
 }
+
+const styles = {
+  body: {
+    fontFamily: 'Titillium Web',
+  }
+}
+
 
 export default App;
